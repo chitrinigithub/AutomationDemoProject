@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-05T22:06:14 IST" name="Default suite" finished-at="2023-09-05T22:07:08 IST" duration-ms="53152">
+    <groups>
+    </groups>
+    <test started-at="2023-09-05T22:06:14 IST" name="Default test" finished-at="2023-09-05T22:07:08 IST" duration-ms="53152">
+      <class name="AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting@5afa3c9]" started-at="2023-09-05T22:06:14 IST" name="setUp" finished-at="2023-09-05T22:06:18 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyIndexPage()[pri:0, instance:AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting@5afa3c9]" started-at="2023-09-05T22:06:18 IST" name="verifyIndexPage" finished-at="2023-09-05T22:06:21 IST" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIndexPage -->
+        <test-method signature="verifyRegisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting@5afa3c9]" started-at="2023-09-05T22:06:23 IST" name="verifyRegisterUser" data-provider="RegisterDataProvider" finished-at="2023-09-05T22:06:45 IST" duration-ms="21961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterUser -->
+        <test-method signature="verifyRegisterUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting@5afa3c9]" started-at="2023-09-05T22:06:45 IST" name="verifyRegisterUser" data-provider="RegisterDataProvider" finished-at="2023-09-05T22:07:07 IST" duration-ms="21830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chitrini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ghosal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mnc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mnc]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mnc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting@5afa3c9]" started-at="2023-09-05T22:07:07 IST" name="tearDown" finished-at="2023-09-05T22:07:08 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationDemoProject.Tests.AutomationDemoTestsDataDrivenTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
